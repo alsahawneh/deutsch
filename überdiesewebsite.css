@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+body {
+    font-family: 'Germania One', cursive;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 26, 26);
+}
+
+a {
+    text-decoration: none;
+}
+
+.josa {
+    color: yellow;
+}
+
+.goethe {
+    color: green;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.überMarina {
+    color: #ffffff;
+    margin-top: 0;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.überMarina div {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.tux {
+    max-width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+    .tux {
+        max-width: 30%;
+    }
+    .goetheOSS {
+        max-width: 30%;
+    }
+}
+
+.lizenz {
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lizenz div {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.goetheOSS {
+    max-width: 30%;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    .goetheOSS {
+        max-width: 70%;
+    }
+}
+
+.backToHome {
+    color: #ffffff;
+}
+
+.seite {
+    background-color: darkgoldenrod;
+    color: #ffffff;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 15px;
+}
+
+.seite a {
+    text-decoration: none;
+    color: #ffffff;
+}

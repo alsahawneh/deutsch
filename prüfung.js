@@ -339,6 +339,7 @@ const MAX_QUESTIONS = 40
 startGame = () => {
     questionCounter = 0
     score = 0
+    localStorage.setItem('score',score)
     availableQuestions = [...questions]
     getNewQuestion()
 }
@@ -393,6 +394,7 @@ choices.forEach(choice => {
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
+    localStorage.setItem('score', score)
 }
 
 startGame()
